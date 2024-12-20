@@ -1,9 +1,9 @@
 ```markdown
-# DHOBI Management System
+# Laundry Management System
 
 ## Overview
 
-The DHOBI Management System is a web application designed to streamline the process of managing laundry services. It helps users (students) easily create and manage their laundry orders, track costs, and pay using their college ID barcodes. It also addresses common challenges such as damage reporting, clothing tracking, and simplifying the payment process.
+The Laundry Management System is a web application designed to streamline the process of managing laundry services. It helps users (students) easily create and manage their laundry orders, track costs, and pay using their college ID barcodes. It also addresses common challenges such as damage reporting, clothing tracking, and simplifying the payment process.
 
 ## Features
 
@@ -48,7 +48,7 @@ Clone the repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/yourusername/dhobi-management-system.git
-cd dhobi-management-system
+cd Laundry-management
 ```
 
 ### Step 2: Install Dependencies
