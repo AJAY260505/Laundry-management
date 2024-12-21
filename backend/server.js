@@ -1,14 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const orderRoutes = require('./routes/orderRoutes');
-app.use('/api/orders', orderRoutes);
 const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const damageReportRoutes = require('./routes/damageReportRoutes');
-app.use('/api/orders', damageReportRoutes);  // Add this line to register the new r
 
 // Middleware
 app.use(cors());
@@ -23,6 +19,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 const laundryRoutes = require('./routes/laundryRoutes');
 app.use('/api/laundry', laundryRoutes);
 
+// Order Routes
 const orderRoutes = require('./routes/orderRoutes');
 app.use('/api/orders', orderRoutes);
 

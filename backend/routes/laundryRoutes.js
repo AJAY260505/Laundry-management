@@ -1,7 +1,4 @@
-import LaundryController from '../controllers/LaundryController'
 const express = require('express');
-const LaundryOrder = require('../models/LaundryOrder'); // Adjust according to your model path
-
 const LaundryOrder = require('../models/LaundryOrder');
 
 exports.createOrder = async (req, res) => {
